@@ -1,5 +1,10 @@
-# Visao-Sonora-
+# Visao-Sonora- 
+
+Seu caminho, sua autonomia.
+
 Projeto acadêmico de aplicativo móvel focado em mobilidade urbana, segurança e autonomia para pessoas com deficiência visual.
+
+Status do Projeto: Conceituação e Protótipo de Alta Fidelidade
 _____________________________________________________________________________________________________________________________
 Tabela de Conteúdos
 - O Problema
