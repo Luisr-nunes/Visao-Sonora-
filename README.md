@@ -27,11 +27,14 @@ ________________________________________________________________________________
 Vídeo Pitch (A Jornada do Herói)
 
 Para demonstrar o impacto do nosso app, criamos um vídeo curto que conta a história de Leo, um deficiente visual que enfrenta um obstáculo inesperado e recupera sua autonomia com a ajuda do Visão Sonora.
+https://youtu.be/fjgJ1KeDcXo?
 _____________________________________________________________________________________________________________________________
 
 Assets do Projeto
 
 Este repositório centraliza todos os artefatos de design e conceito do projeto:
+https://sites.google.com/cesar.school/projeto-1/home
+https://www.figma.com/make/VGmmf9XpKaS5SndVtOWmig/Modelo-do-Vis%C3%A3o-Sonora?t=CJdBKUHzoRmjhB1t-1
 _____________________________________________________________________________________________________________________________
 
 Principais Funcionalidades
