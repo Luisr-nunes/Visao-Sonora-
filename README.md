@@ -1,128 +1,73 @@
 <div align="center">
 
-# 🔊 Visão Sonora
+# Visão Sonora
 
-### *Seu caminho, sua autonomia.*
+<!-- badges -->
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-<br>
+[Read in English](README.en.md)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-78.3%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-21.5%25-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-build-646CFF?style=flat-square&logo=vite&logoColor=white)
+*Seu caminho, sua autonomia.*
 
-<br>
+Protótipo de aplicativo de mobilidade urbana, guiado por voz, para dar segurança e autonomia a pessoas com deficiência visual.
 
-![Status](https://img.shields.io/badge/Status-Protótipo_de_Alta_Fidelidade-FFB300?style=flat-square)
-![ODS](https://img.shields.io/badge/ODS_11-Cidades_Sustentáveis-F99D26?style=flat-square)
-![Equipe](https://img.shields.io/badge/Equipe-10_pessoas-6A0DAD?style=flat-square)
-![Instituição](https://img.shields.io/badge/Instituição-CESAR_School-A0522D?style=flat-square)
-
-<br>
-
-> *Aplicativo de mobilidade urbana focado em segurança e autonomia*
-> *para pessoas com deficiência visual.*
-
-<br>
-
-[![▶ Ver Vídeo Pitch](https://img.shields.io/badge/▶%20%20Ver%20Vídeo%20Pitch%20(YouTube)-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/fjgJ1KeDcXo)
-[![▶ Protótipo no Figma](https://img.shields.io/badge/▶%20%20Protótipo%20no%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/VGmmf9XpKaS5SndVtOWmig/Modelo-do-Vis%C3%A3o-Sonora)
-[![▶ Site do Projeto](https://img.shields.io/badge/▶%20%20Site%20do%20Projeto-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://sites.google.com/cesar.school/projeto-1/home)
+[Vídeo pitch](https://youtu.be/fjgJ1KeDcXo) · [Protótipo no Figma](https://www.figma.com/make/VGmmf9XpKaS5SndVtOWmig/Modelo-do-Vis%C3%A3o-Sonora) · [Site do projeto](https://sites.google.com/cesar.school/projeto-1/home)
 
 </div>
 
----
+## Sobre
 
-## O Problema
+Projeto acadêmico da Cesar School, ligado ao ODS 11 da ONU (Cidades e Comunidades Sustentáveis). Este repositório guarda o front-end do protótipo de alta fidelidade, exportado do Figma Make em React e TypeScript. As telas são simuladas: ainda não há reconhecimento de voz, geolocalização nem rotas reais.
 
-No Brasil, **mais de 6,5 milhões de pessoas** possuem deficiência visual. Para muitas delas, uma simples caminhada pela cidade é uma jornada cheia de obstáculos, inseguranças e desinformação.
+## O problema
 
-- Calçadas irregulares e obras não sinalizadas limitam a autonomia
-- Mapas tradicionais são visuais e não atendem quem não pode ver o caminho
-- A falta de ferramentas verdadeiramente acessíveis coloca em risco a segurança desse público diariamente
+No Brasil, mais de 6,5 milhões de pessoas têm deficiência visual. Calçadas irregulares e obras sem sinalização limitam a autonomia, e os mapas tradicionais são visuais, o que os torna pouco úteis para quem não enxerga o caminho.
 
----
+## A solução
 
-## A Solução
-
-O **Visão Sonora** não busca o caminho mais curto — busca o **caminho mais seguro e acessível**.
-
-Com interface baseada 100% em **comandos de voz**, o app guia o usuário passo a passo, alertando proativamente sobre obstáculos, interdições e pontos de perigo.
-
----
-
-## Funcionalidades
+O Visão Sonora não procura o caminho mais curto, e sim o mais seguro e acessível. A interface é controlada por voz e guia o usuário passo a passo, avisando com antecedência sobre obstáculos, interdições e pontos de perigo.
 
 | Funcionalidade | Descrição |
-|---|---|
-| **Navegação por Voz** | Interface 100% controlada por comandos de voz |
-| **Rotas Seguras** | Algoritmo prioriza calçadas regulares e semáforos sonoros |
-| **Alertas em Tempo Real** | Usuários reportam obstáculos por voz — crowdsourcing validado |
-| **Modo Exploração** | Descreve pontos de interesse e comércios acessíveis ao redor |
+| --- | --- |
+| Navegação por voz | Interface inteiramente controlada por comandos de voz ("Onde estou?", "Navegar para...") |
+| Rotas seguras | Prioriza calçadas regulares e semáforos sonoros |
+| Alertas em tempo real | Usuários relatam obstáculos por voz, com validação colaborativa |
+| Modo exploração | Descreve pontos de interesse e comércios acessíveis ao redor |
 
----
-
-## Modelos de Negócio
+## Modelos de negócio
 
 | Modelo | Descrição |
-|---|---|
-| **B2G** | Licenciamento para governos como ferramenta oficial de acessibilidade |
-| **B2C** | Assinatura de baixo custo com acesso total às funcionalidades |
-| **B2B** | Estabelecimentos pagam "selo de acessibilidade" para destaque no mapa |
+| --- | --- |
+| B2G | Licenciamento para governos como ferramenta oficial de acessibilidade |
+| B2C | Assinatura de baixo custo com acesso a todas as funcionalidades |
+| B2B | Estabelecimentos pagam por um selo de acessibilidade que os destaca no mapa |
 
----
+## Telas do protótipo
+
+| Componente | Conteúdo |
+| --- | --- |
+| `HomeScreen` | Tela principal com o assistente de voz ("Ouvindo...") e destino |
+| `SettingsScreen` | Configurações |
+| `MockupScreens` | Apresentação das telas lado a lado |
 
 ## Tecnologias
 
-| Camada | Tecnologia |
-|---|---|
-| Frontend | **TypeScript + Vite** |
-| Estilo | **CSS3** |
-| Design / Prototipagem | **Figma** |
-| Documentação | Google Sites |
+- React 18, TypeScript e Vite 6
+- shadcn/ui sobre Radix UI, Lucide
+- CSS gerado pelo Tailwind CSS
+- Figma e Figma Make (prototipação e exportação), Google Sites (documentação)
 
----
+## Como executar
 
-## Como Rodar Localmente
+Pré-requisito: Node.js 18+.
 
 ```bash
-# Clone o repositório
 git clone https://github.com/Luisr-nunes/Visao-Sonora-.git
 cd Visao-Sonora-
-
-# Instale as dependências
 npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
+npm run dev      # http://localhost:3000
 ```
-
----
 
 ## Equipe
 
-<div align="center">
-
-| Integrante |
-|---|
-| **Luis Nunes** |
-| Renato Chong |
-| Luis Lucena |
-| Augusto Freitas |
-| Lucas Bonfim |
-| Rafael Dias |
-| Daniel Massud |
-| Raysa Queiroz |
-| João Arruda |
-| Glauberson Ribeiro |
-
-[![GitHub](https://img.shields.io/badge/GitHub-Luisr--nunes-181717?style=flat-square&logo=github)](https://github.com/Luisr-nunes)
-
-</div>
-
----
-
-<div align="center">
-
-*👁️ Tecnologia que enxerga pelo usuário — acessibilidade não é opcional.*
-
-</div>
+Luis Nunes, Renato Chong, Luis Lucena, Augusto Freitas, Lucas Bonfim, Rafael Dias, Daniel Massud, Raysa Queiroz, João Arruda e Glauberson Ribeiro.
